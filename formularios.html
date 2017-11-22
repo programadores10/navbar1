@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<title>MENU PRINCIPAL</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+	<h1 class="text-success text-center">Formularios</h1>
+	<div class="container">
+		<div class="row">
+		<!--Formularios -->
+		<div class="col-sm-4">
+			
+				
+				
+					<form action="">
+						<div class="form-group">
+							<label for="input1">Direccion de Correo Electronico</label>
+							<input type="Email" class="form-control" id="input1" aria-describedby="emailHelp" placeholder="Ingresa tu Email">
+							<small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+						</div>
+						<!--Password -->
+						<div class="form-group">
+							<label for="input2">Contraseña</label>
+							<input type="Password" class="form-control" id="input2" placeholder="Password">							
+						</div>
+						<!--checkbox -->
+						<div class="form-check">
+							<label class="form-check-label">
+									<input type="checkbox" class="form-check-input">
+									Hecha Un Vistazo
+							</label>
+
+						</div>
+						<button type="button" href="index.html" class="btn btn-primary">Enviar</button>
+					</form>
+			</div>
+			
+				
+
+		<!--Controles de Formularios -->
+		<div class="col-sm-4">
+			<div class="form-group">
+				<label for="input3" class="">Ingresa Tu correo</label>
+				<input type="email" class="form-control" id="input3" placeholder="Servandp@hotmail.com">
+			</div>
+			<!--Select Sencillo -->
+			<div class="form-group">
+				<label for="select1">Selecciona Una Opción</label>
+				<select name="" id="select1" class="form-control" placeholder="seleciona">
+					<option value="">--Seleccione--</option>
+					<option value="">Selct1</option>
+					<option value="">Enviar</option>
+					
+				</select>
+			</div>
+			<!--Select Multiple -->
+			<div class="form-group">
+				<label for="select1">Selecciona Una Opción</label>
+				<select name="" id="select1" class="form-control" placeholder="seleciona" multiple="">
+					<option value="">--Seleccione--</option>
+					<option value="">Selct1</option>
+					<option value="">Enviar</option>
+					<option value="">Lorem</option>
+					<option value="">Submit</option>
+				</select>
+			</div>
+			<!--Textarea -->
+			<div class="form-group">
+				<label for="area1">Descripcion De Tus Objetivos</label>
+				<textarea name="" id="area1" cols="8" rows="3" class="form-control"></textarea>
+				
+			</div>
+			
+		</div>
+		
+		<!--Entradas De archivos -->
+		<div class="col-sm-4">
+			<div class="form-group">
+				<label for="file1">Selecione Los Archivos</label>
+				<input type="file" class="form-control-file">
+				
+			</div>
+			<!--Tamaños -->
+			<div class="form-group">
+				<label for="" class="form-control-label">Tamaños de Formulario</label>
+				<input class="form-control form-control-lg" type="text" placeholder="solo lectura" readonly="">
+				<input class="form-control" type="text" placeholder="Default input">
+				<input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+			</div>
+		</div>
+	</div>
+	<!--Texto seguido -->
+	<div class="form-gropu row">
+		<label for="email" class="col-sm-1 col-form-label">Email</label>
+		<div class="col-sm-5">
+			<input type="text" class="form-control" id="email">
+		</div>
+	</div>
+	<br>
+	<!--Form en Linea -->
+	<form action="" class="form-inline">
+		<label for="email" class="sr-only">Email</label>
+		<input type="text" readonly="" class="form-control" id="email" value="Servando@outlook.com">
+
+		<div class="form-group mx-sm-3">
+		    <label for="inputPassword2" class="sr-only">Password</label>
+		    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+  		</div>
+  		<button type="submit" class="btn btn-primary">Confirm identity</button>
+	</form>
+	
+	<!--Otros Componentes -->
+	<h3>CheckBox</h3>
+	<div class="form-check">
+		<label for="check0" class="form-check-label">
+			
+			<input type="checkbox" id="check0" class="form-check-input" >
+			<strong>Marcar Todas Las Casillas</strong>
+		</label>
+	</div>
+
+	<div class="form-check">
+		<label for="check1" class="form-check-label">
+			<input type="checkbox" id="check1" class="form-check-input">
+			Enrutar la Mayor Parte
+		</label>
+	</div>
+
+	<div class="form-check disabled">
+		<label for="check2" class="form-check-label">
+			<input type="checkbox" id="check2" class="form-check-input" disabled="">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, cum!
+		</label>
+	</div>
+	<!--CHECK-INLINE -->
+	<div class="form-check form-check-inline">
+		<div class="form-check">
+		<label for="check3" class="form-check-label">
+			<input type="checkbox" id="check3" class="form-check-input">
+			Enrutamiento
+		</label>
+	</div>
+
+	<div class="form-check ">
+		<label for="check4" class="form-check-label">
+			<input type="checkbox" id="check4" class="form-check-input">
+			Switcheo
+		</label>
+	</div>
+
+	</div>
+	<h3>Radio Buttons</h3>
+	<div class="form-check form-check-inline">
+		<label class="form-check-label">
+			<input type="radio" id="radio1" name="radios1" class="form-check-input">
+			Switcheo1
+		</label>
+	</div>
+
+	<div class="form-check form-check-inline">
+		<label  class="form-check-label">
+			<input type="radio" id="radio2" name="radios1" class="form-check-input">
+			Switcheo2
+		</label>
+	</div>
+
+	<div class="form-check form-check-inline">
+		<label class="form-check-label">
+			<input type="radio" id="radio3" name="radios1" class="form-check-input">
+			Switcheo3
+		</label>
+	</div>
+
+	<!--Acomodamiento y clases -->
+	<form>
+  <div class="form-row align-items-center">
+    <div class="col-auto">
+      <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">Remember my preference</span>
+      </label>
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</form>
+
+<!--Texto adicional -->
+<label for="inputPassword5">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<small id="passwordHelpBlock" class="form-text text-muted">
+  Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+</small>
+
+<form action="" class="form-inline">
+	<div class="form-group">
+		<label for="password1">Password</label>
+		<input type="password" class="form-control mx-sm-3" id="password1" aria-describedby="passwordHelpInline">
+		<small id="passwordHelpInline" class="form-text text-muted mx-sm-1">Seleccione Mas Caracteres</small>
+	</div>
+</form>
+<!-- Validacion de Formularios-->
+
+<form>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer01">First name</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationServer02">Last name</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">City</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer04">State</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+      <div class="invalid-feedback">
+        Please provide a valid state.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">Zip</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+  </div>
+
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+
+
+<form class="was-validated">
+  <label class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" required>
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Check this custom checkbox</span>
+  </label>
+
+  <div class="custom-controls-stacked d-block my-3">
+    <label class="custom-control custom-radio">
+      <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" required>
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Toggle this custom radio</span>
+    </label>
+    <label class="custom-control custom-radio">
+      <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" required>
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Or toggle this other custom radio</span>
+    </label>
+  </div>
+
+  <select class="custom-select d-block my-3" required>
+    <option value="">Open this select menu</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+
+  <label class="custom-file">
+    <input type="file" id="file" class="custom-file-input" required>
+    <span class="custom-file-control"></span>
+  </label>
+</form>
+
+	</div><!--Div Cierre Container -->
+
+
+
+
+
+
+
+</body>
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</html>
